@@ -1,0 +1,22 @@
+.heading-blog {
+    margin-bottom: 12px;
+    background-color: #b5b5b5;
+}
+.apj-img {
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.bio-table {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.bio-text {
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+.row-style {
+    background: #f5f5f5;
+}

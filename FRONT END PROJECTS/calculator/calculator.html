@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1 id="title">Calculator</h1>
+    <div class="main_calculator">
+        <div class="heading">CALCULATOR</div>
+        <div class="screen"><p id="text_display">START</p></div>
+        <div class="type_pad">
+            <div class="key"><button onclick="calculate('1')">1</button></div>
+            <div class="key"><button onclick="calculate('2')">2</button></div>
+            <div class="key"><button onclick="calculate('3')">3</button></div>
+            <div class="key"><button onclick="calculate('+')">+</button></div>
+            <div class="key"><button onclick="calculate('4')">4</button></div>
+            <div class="key"><button onclick="calculate('5')">5</button></div>
+            <div class="key"><button onclick="calculate('6')">6</button></div>
+            <div class="key"><button onclick="calculate('-')">-</button></div>
+            <div class="key"><button onclick="calculate('7')">7</button></div>
+            <div class="key"><button onclick="calculate('8')">8</button></div>
+            <div class="key"><button onclick="calculate('9')">9</button></div>
+            <div class="key"><button onclick="calculate('*')">*</button></div>
+            <div class="key"><button onclick="calculate('C')">C</button></div>
+            <div class="key"><button onclick="calculate('0')">0</button></div>
+            <div class="key"><button onclick="calculate('/')">/</button></div>
+            <div id="calculate" class="key"><button onclick="calculate('=')">=</button></div>
+            
+            <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+            <script>
+                
+                var exp = '' 
+                function calculate(val) {
+                    if (val == 'C'){
+                        exp = ""
+                        document.getElementById('text_display').innerHTML = "START"
+                        return
+                    }
+                    if (val != '='){
+                        exp = exp + val 
+                    document.getElementById('text_display').innerHTML = exp
+                    }
+                    else{
+                        document.getElementById('text_display').innerHTML = eval(exp)
+                        exp = ''
+                    }
+
+                }
+/*
+                $(document).ready(function(){
+                        $('#calculate').mouseover(function(){
+                            document.getElementById('text_display').innerHTML = eval(exp)
+                            exp = ''
+                        })
+                    })
+                    */
+                
+            </script>
+        </div>
+    </div>
+</body>
+</html>
