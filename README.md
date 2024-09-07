@@ -7,7 +7,7 @@ This is a repository for web development projects.
 4. Portfolio
 5. Calculator
 
-### BACK END PROJECTS
+### FULL STACK DEVOLOPMENT
 1. PERSONAL BIOGRAPGY
 2. EXPERTISE SYSTEM
 
