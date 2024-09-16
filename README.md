@@ -7,6 +7,7 @@ This is a repository for web development projects.
 4. Portfolio
 5. Calculator
 6. Onlne Book Store
+7. Collage Web page
 
 ### FULL STACK DEVOLOPMENT
 1. PERSONAL BIOGRAPGY
