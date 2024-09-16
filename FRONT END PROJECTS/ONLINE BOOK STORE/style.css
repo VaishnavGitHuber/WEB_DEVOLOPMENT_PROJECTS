@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    background-color: orange;
+}
+header {  
+    background-color: lightgreen;
+    height: 150px;
+}
+.title-name {
+    text-align: center;
+    background-color: yellow;
+    width: 500px;
+    color: rgb(4, 250, 4);
+    margin-left: 450px;
+    height: 40px;
+    padding-top: 15px;
+    font-size: x-large;
+}
+.a-pad {
+    margin-right:300px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.catalogue {
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-bar-list {
+    height: 75px;
+    padding-top: 20px;
+}
+.logo-collage{
+    background-color: orange;
+}
+.message {
+    background-color: orange;
+
+}
+p {
+    margin: 0px;
+}
+.welcome-text {
+    color: blue;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.text-1{
+    color: red;
+    font-size: 40px;
+}
+.message {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.image-1 {
+    background-color: white;
+}
