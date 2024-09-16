@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+.image-container {
+    width: 70%;
+    float: left;
+}
+.login {
+    width: 25%;
+    float: left;
+    margin-left: 15px;
+    padding: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+    
+}
+.text-1 {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    color: rgb(159, 157, 157);
+}
+.input-filed {
+    margin-bottom: 15px;
+    width: 250px;
+    height: 35px;
+}
+.sign-in {
+    margin-bottom: 15px;
+    width: 260px;
+    height: 30px;
+    background-color: #6610f2;
+    color: white;
+    border-radius: 5px;
+}
+.img-signwithgoogle {
+margin-bottom: 50px;
+width: 255px;
+height: 30px;
+background-color:#fff;
+border-radius: 5px;
+color: black;
+border: 2px solid black;
+
+}
+.image01 {
+padding-top: 5px;
+width:20%;
+float: left;
+}
+.content01 {
+width: 70%;
+float: left;
+padding-top: 7px;
+}
+a {
+text-decoration: none;
+}
+.logos {
+margin-top: 10px;
+text-align: center;
+width: 250;
+margin-bottom: 220px;
+}
+.container-logo {
+margin-left: 40px;
+width: 30px;
+float: left;
+}
