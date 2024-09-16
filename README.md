@@ -6,6 +6,7 @@ This is a repository for web development projects.
 3. SignUp Form
 4. Portfolio
 5. Calculator
+6. Onlne Book Store
 
 ### FULL STACK DEVOLOPMENT
 1. PERSONAL BIOGRAPGY
